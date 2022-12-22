@@ -1,0 +1,971 @@
+/* ______section-banner-white-lable______ */
+.section-white-lable-page .section-banner-white-lable .section-banner {
+    position: relative;
+}
+
+.section-white-lable-page .section-banner-white-lable .section-banner .banner-title {
+    padding: 0 25px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.section-banner-white-lable .section-banner .banner-title h1 {
+    margin-bottom: 22px;
+    text-align: left;
+    max-width: 750px;
+    margin-left: 0;
+
+    text-transform: capitalize;
+    color: #FFCD06;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px
+}
+
+.section-banner-white-lable .section-banner .banner-title h6 {
+    max-width: 625px;
+}
+
+.section-banner-white-lable .section-banner .banner-title h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+.section-white-lable-page .section-banner-white-lable .section-banner .top-banner img {
+    z-index: 0;
+    height: 100vh;
+}
+
+.section-white-lable-page .section-banner-white-lable .section-banner .top-banner .image-banner .image {
+    overflow: hidden;
+    z-index: 0;
+    height: 100vh;
+}
+
+.section-white-lable-page .section-banner-white-lable .section-banner .top-banner .image-banner picture,
+.section-white-lable-page .section-banner-white-lable .section-banner .top-banner .image-banner img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    min-height: 460px;
+}
+
+/* ______section-banner-white-lable END____ */
+
+/* ______section-introduce______ */
+.section-introduce-inner {
+    background-color: #292A39;
+    padding: 0px 0px 59px;
+}
+
+/* introduce section */
+.section-introduce-inner .questions-section .container {
+    max-width: 757px !important;
+    padding: 0 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.section-introduce-inner.questions-section {
+    /* margin: 400px 0; */
+}
+
+.section-introduce-inner .question {
+    padding-top: 215px;
+}
+
+.section-introduce-inner .question:first-child {
+    padding-top: 182px;
+}
+
+.section-introduce-inner .question:last-child {
+    padding-top: 215px;
+    padding-bottom: 262px;
+}
+
+.section-introduce-inner .question {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFCD06;
+}
+
+.section-introduce-inner .question .item span {
+    opacity: 0;
+    transition: all ease-in-out .3s;
+    transform: translate3d(0, 100px, 0);
+}
+
+.section-introduce-inner .question.show-content .item span {
+    opacity: 1;
+    transition: all ease-in-out .3s;
+    transform: translateZ(0);
+}
+
+.section-introduce-inner .item {
+    position: relative;
+}
+
+.section-introduce-inner .question .item::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 3px;
+    background: #fff;
+    top: -182px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease-in-out .5s;
+}
+
+.section-introduce-inner .question.run-line .item::after {
+    height: 150px;
+    transition: all ease-in-out .5s;
+}
+
+.section-introduce-inner .question .item::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 3px;
+    background: #fff;
+    top: -182px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease-in-out .5s;
+}
+
+.section-introduce-inner .introduce-inner {
+    border-radius: 12px;
+    padding: 60px 25px 23px 25px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFCD06;
+    position: relative;
+    border: 1px solid;
+    position: relative;
+    /* margin-top: 250px; */
+}
+
+.section-introduce-inner .introduce-inner.run-line::before {
+    height: 215px;
+    transition: all ease-in-out .5s;
+}
+
+.section-introduce-inner .introduce-inner::before {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 3px;
+    background: #fff;
+    top: -230px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease-in-out .5s;
+}
+
+.section-introduce-inner .introduce-inner.show-content .cicle {
+    transform: translate(-50%, 0);
+}
+
+.section-introduce-inner.introduce-inner .cicle {
+    opacity: 0;
+    transform: translate(-50%, 100px);
+}
+
+.section-introduce-inner .introduce-inner.show-content .cicle,
+.section-introduce-inner .introduce-inner.show-content .content {
+    opacity: 1;
+    transition: all ease-in-out .3s;
+}
+
+.section-introduce-inner .introduce-inner.show-content .content {
+    transform: unset;
+}
+
+.section-introduce-inner .introduce-inner .content {
+    opacity: 0;
+    transition: all ease-in-out .3s;
+    transform: translate3d(0, 100px, 0);
+}
+
+.section-introduce-inner .introduce-inner .content {
+    transform: translateZ(0);
+}
+
+.section-introduce-inner .introduce-inner .cicle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -32.5px;
+    background: #FFCD06;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-introduce-inner .introduce-inner .cicle::before {
+    content: '';
+    display: inline-block;
+    left: 50%;
+    width: 33px;
+    height: 35px;
+    background: url('https://onextdigital.com/wp-content/themes/ahtsolution/assets/images/fluent_star-16-filled.svg');
+    background-size: auto;
+    background-size: contain;
+}
+
+.section-introduce-inner .introduce-inner .content {
+    max-width: 1207px;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFCD06;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-introduce-inner .introduce-inner .content p {
+    color: #FFCD06;
+}
+
+.section-introduce-inner .introduce-inner tr,
+th,
+td {
+    border: none;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+    text-align: inherit;
+}
+
+.section-introduce-inner .introduce-inner .content {
+    opacity: 0;
+    transition: all ease-in-out .3s;
+    transform: translate3d(0, 100px, 0);
+}
+
+.section-introduce-inner .introduce-inner .cicle {
+    transform: translate(-50%, 100px);
+}
+
+/* _____section-introduce END_____ */
+/* ____our_services_and_techs-section____ */
+.section-white-lable-page .our_services_and_techs-section {
+    padding: 5rem 0;
+}
+
+.section-white-lable-page .our_services_and_techs-section .section-banner-our img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.section-white-lable-page .our_services_and_techs-section .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #183B56;
+}
+
+.section-white-lable-page .our_services_and_techs-section .services-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -65px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.section-white-lable-page .our_services_and_techs-section .services-list .wapper {
+    justify-content: center;
+}
+
+.our_services_and_techs-section .services-list .services-item .wapper .button-link a.button:hover {
+    text-decoration: underline;
+}
+
+.section-white-lable-page .our_services_and_techs-section .services-list .services-item {
+    flex: 0 0 20%;
+    max-width: 20%;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.our_services_and_techs-section .services-list .services-item .wapper {
+    background: #fff;
+    box-shadow: 0px 10px 25px rgb(0 0 0 / 5%);
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 32px;
+
+    height: 261px;
+}
+
+.our_services_and_techs-section .services-list .services-item .wapper .box-icon img {
+    max-height: 95px;
+}
+
+.our_services_and_techs-section .services-list .services-item .wapper .title p {
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: capitalize;
+    color: #007bff;
+}
+
+.our_services_and_techs-section .services-list .services-item .wapper .title p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.our_services_and_techs-section .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 96px;
+}
+
+.our_services_and_techs-section .tech-list .tech-item {
+    padding: 0 38px;
+}
+
+.our_services_and_techs-section .tech-list .tech-item .box-icon img {
+    max-height: 84px;
+}
+
+/* ____our_services_and_techs-section EnD____ */
+
+/* ______benefits-section_____ */
+.section-white-lable-page .benefits-section {
+    padding: 5rem 0;
+}
+
+.section-white-lable-page .benefits-section .benefits-section-inner {
+    padding: 0;
+    gap: 44px;
+    border: 2px solid #E0E0E0;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.benefits-section .benefits-section-inner .section-inner-banner img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.benefits-section .benefits-section-inner .section-inner-content {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.benefits-section .benefits-section-inner .section-inner-content h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    text-transform: capitalize;
+    color: #183B56;
+    margin: 0 0 24px 0;
+}
+
+.benefits-section .benefits-section-inner .section-inner-content .benefits-item {
+    padding-left: 3rem;
+    margin-top: 44px;
+}
+
+.benefits-section .benefits-section-inner .section-inner-content .benefits-item ul {
+    margin: 0 0 3rem 3rem;
+}
+
+.benefits-section .benefits-section-inner .section-inner-content .benefits-item ul li {
+    list-style: none;
+    padding-left: 60px;
+    position: relative;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5A7184;
+    margin-bottom: 25px;
+    font-family: 'myfont';
+}
+
+.benefits-section .benefits-section-inner .section-inner-content .benefits-item ul li::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background-image: url(https://onextdigital.com/wp-content/themes/ahtsolution/assets/images/frame11029.png);
+    position: absolute;
+    left: 0;
+    top: -6px;
+}
+
+/* ______benefits-sectionEND_____ */
+
+/* why_choose_us-section_____ */
+.section-white-lable-page .why_choose_us-section {
+    padding: 104px 0px 50px;
+}
+
+.section-white-lable-page .why_choose_us-section .why_choose_us-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #183B56;
+    margin: 0 0 24px 0;
+    font-family: 'myfont';
+}
+
+.section-white-lable-page .why_choose_us-section img {
+    width: 100%;
+}
+
+.section-white-lable-page .why_choose_us-section .why_choose_us-banner .why_choose_us-banner:first-child {
+    margin-top: 46px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.section-white-lable-page .why_choose_us-section .why_choose_us-banner .why_choose_us-banner:last-child {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: -77px;
+}
+
+/* why_choose_us-sectionEND_____ */
+
+/* ___reasons-list_____ */
+.section-white-lable-page .why_choose_us-section .reasons-list {
+    padding: 25px 60px;
+    margin-top: 46px;
+}
+
+.why_choose_us-section .reasons-list .reasons-items {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    margin-bottom: 35px;
+    position: relative;
+    display: flex;
+}
+
+.why_choose_us-section .reasons-list .reasons-items div:nth-child(n+1) {
+    display: inline-block;
+    color: #183B56;
+    margin-top: 0;
+    margin-bottom: 33px;
+
+}
+
+.why_choose_us-section .reasons-list .reasons-items .number span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    margin-right: 4px;
+}
+
+.why_choose_us-section .reasons-list .reasons-items .title span,
+.why_choose_us-section .reasons-list .reasons-items .number p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.why_choose_us-section .reasons-list .reasons-items .number p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    margin-right: 4px;
+}
+
+.why_choose_us-section .reasons-list .reasons-items .description p {
+    font-weight: 400;
+    color: #5A7184;
+    letter-spacing: 0.1px;
+    padding-right: 6px;
+    text-align: justify;
+}
+
+.why_choose_us-section .reasons-list .reasons-items div:last-child {
+    display: block;
+}
+
+/* .why_choose_us-section .reasons-list .reasons-items .content-title .description {
+    position: absolute;
+    left: 2.5%;
+} */
+
+/* ___reasons-listEND_____ */
+
+/* _____bottom_panel_banner-section____ */
+.section-white-lable-page .bottom_panel_banner-section {
+    padding: 21px 0px 50px
+}
+
+.bottom_panel_banner-section .wapper {
+    background: #FBDB6A;
+    border-radius: 16px;
+    padding-bottom: 45px;
+    position: relative;
+    padding: 35px 260px 52px;
+    text-align: center;
+}
+
+.bottom_panel_banner-section .wapper::before {
+    content: '';
+    background-image: url(https://onextdigital.com/wp-content/themes/ahtsolution/assets/images/ellipse34.png);
+    position: absolute;
+    width: 132px;
+    height: 329px;
+    top: 0;
+    left: 0;
+}
+
+.bottom_panel_banner-section .wapper::after {
+    content: '';
+    background-image: url(https://onextdigital.com/wp-content/themes/ahtsolution/assets/images/ellipse32.png);
+    position: absolute;
+    width: 321px;
+    height: 281px;
+    bottom: 0;
+    right: 0;
+}
+
+.bottom_panel_banner-section .wapper .bottom_panel_banner-title {
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    color: #183B56;
+    margin-top: 0;
+    margin-bottom: 20px;
+    opacity: 1;
+
+    font-size: 38px;
+    line-height: 64px;
+
+    margin: 0 0 24px 0;
+}
+
+.bottom_panel_banner-section .wapper .bottom_panel_banner-description {
+    margin-bottom: 38px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #5A7184;
+}
+
+.bottom_panel_banner-section .wapper .button-more a {
+    background: #0149AB;
+    border-radius: 8px;
+    color: #FFFFFF;
+
+    border: 1px solid #0149AB;
+    text-decoration: none;
+    transition: all .3s;
+    line-height: 32px;
+
+    max-width: none;
+    width: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    height: 55px;
+    padding: 9px 30px;
+
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.bottom_panel_banner-section .wapper .button-more a:hover {
+    background: transparent;
+    color: #0149AB;
+}
+
+/* _____bottom_panel_banner-sectionEND_____ */
+
+
+@media(max-width: 1400px) {
+    .section-white-lable-page .our_services_and_techs-section .section-title {
+        font-size: 39px;
+        line-height: 50px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .section-white-lable-page .our_services_and_techs-section {
+        padding: 3em 0;
+    }
+
+    .our_services_and_techs-section .services-list .services-item .wapper .box-icon img {
+        object-fit: contain;
+        width: 77px;
+        height: 79px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .our_services_and_techs-section .tech-list {
+        margin-top: 50px;
+    }
+
+    .our_services_and_techs-section .tech-list .tech-item {
+        margin-bottom: 48px;
+    }
+
+    .section-white-lable-page .benefits-section {
+        padding: 0;
+    }
+}
+
+@media(max-width: 1187px) {
+    .section-white-lable-page .benefits-section .benefits-section-inner {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .section-white-lable-page .benefits-section .benefits-section-inner .section-inner-content {
+        padding-left: 35px;
+        padding-right: 15px;
+        min-height: 1px;
+    }
+
+    .benefits-section .benefits-section-inner .section-inner-content .benefits-item {
+        padding-left: 0;
+    }
+
+    .bottom_panel_banner-section .wapper {
+        padding: 105px 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .benefits-section .benefits-section-inner .section-inner-content h3 {
+        font-size: 35px;
+    }
+
+    .benefits-section .benefits-section-inner .section-inner-content .benefits-item ul {
+        margin-left: 0;
+    }
+
+    .benefits-section .benefits-section-inner .section-inner-content .benefits-item ul li {
+        padding-left: 60px;
+        margin-left: 15px;
+    }
+
+    .section-banner-white-lable .section-banner .banner-title h1 {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section-banner-white-lable .section-banner .banner-title h1 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .section-white-lable-page .section-introduce-inner .introduce-inner .content {
+        max-width: 1207px;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFCD06;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+
+    .section-white-lable-page .section-introduce-inner .introduce-inner .content p {
+        font-size: 18px;
+    }
+
+    .our_services_and_techs-section .services-list .services-item .wapper {
+        padding-top: 32px;
+        min-height: 180px;
+        margin-bottom: 24px;
+        height: 188px;
+    }
+
+    .our_services_and_techs-section .services-list .services-item .wapper .title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: -10px;
+    }
+
+    .section-white-lable-page .our_services_and_techs-section .services-list .services-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 10px;
+    }
+
+    .benefits-section .benefits-section-inner .section-inner-banner img {
+        margin-bottom: 0;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .section-white-lable-page .benefits-section .benefits-section-inner {
+        padding: 0;
+    }
+
+    .benefits-section .benefits-section-inner .section-inner-content {
+        padding-top: 20px;
+    }
+
+    .section-white-lable-page .why_choose_us-section .why_choose_us-title,
+    .section-white-lable-page .our_services_and_techs-section .section-title {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .benefits-section .benefits-section-inner .section-inner-content h3 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+    .section-white-lable-page .why_choose_us-section .why_choose_us-banner .why_choose_us-banner:first-child,
+    .section-white-lable-page .why_choose_us-section .why_choose_us-banner .why_choose_us-banner:last-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .section-white-lable-page .why_choose_us-section .why_choose_us-banner .why_choose_us-banner:last-child {
+        margin-top: 20px;
+    }
+
+    .why_choose_us-section .reasons-list .reasons-items {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .section-white-lable-page .why_choose_us-section .reasons-list {
+        padding: 25px
+    }
+
+    .benefits-section .benefits-section-inner .section-inner-content .benefits-item ul {
+        margin: 0;
+    }
+
+    .bottom_panel_banner-section .wapper .bottom_panel_banner-title {
+        font-size: 32px;
+    }
+
+    .section-white-lable-page .benefits-section .benefits-section-inner .section-inner-content {
+        padding-left: 20px;
+    }
+
+    .section-white-lable-page .why_choose_us-section {
+        padding: 50px 0px 20px;
+    }
+
+    .our_services_and_techs-section .services-list .services-item .wapper .title p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-banner-white-lable .section-banner .banner-title h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .section-banner-white-lable .section-banner .banner-title h6 {
+        font-size: 14px;
+        line-height: 19.6px;
+    }
+
+    .section-introduce-inner .question,
+    .section-white-lable-page .section-introduce-inner .introduce-inner .content p {
+        font-size: 18px;
+    }
+
+    .section-white-lable-page .our_services_and_techs-section .section-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .our_services_and_techs-section .tech-list .tech-item .box-icon img {
+        max-height: 50px;
+        object-fit: cover;
+    }
+
+    .benefits-section .benefits-section-inner .section-inner-content h3 {
+        font-size: 22px;
+        line-height: 28px;
+
+    }
+
+    .benefits-section .benefits-section-inner .section-inner-content .benefits-item ul li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .benefits-section .benefits-section-inner .section-inner-content .benefits-item ul li::before {
+        width: 34px;
+        height: 34px;
+        background-size: contain;
+    }
+
+    .section-white-lable-page .why_choose_us-section .why_choose_us-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .why_choose_us-section .reasons-list .reasons-items .title span,
+    .why_choose_us-section .reasons-list .reasons-items .number p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .why_choose_us-section .reasons-list .reasons-items .description p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .why_choose_us-section .reasons-list .reasons-items div:nth-child(n+1) {
+        margin-bottom: 15px;
+    }
+
+    .bottom_panel_banner-section .wapper .bottom_panel_banner-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .bottom_panel_banner-section .wapper .bottom_panel_banner-description {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .bottom_panel_banner-section .wapper .button-more a {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .why_choose_us-section .reasons-list .reasons-items,
+    .section-white-lable-page .our_services_and_techs-section .services-list .services-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+
+    .section-white-lable-page .why_choose_us-section .reasons-list {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .why_choose_us-section .reasons-list .reasons-items {
+        margin: 0px;
+    }
+
+    .our_services_and_techs-section .tech-list .tech-item .box-icon img {
+        max-height: 38px;
+        object-fit: cover;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+
+    .section-banner-white-lable .section-banner .banner-title h1,
+    .section-white-lable-page .our_services_and_techs-section .section-title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .section-introduce-inner .question,
+    .section-white-lable-page .section-introduce-inner .introduce-inner .content p,
+    .bottom_panel_banner-section .wapper .bottom_panel_banner-description {
+        font-size: 14px;
+    }
+
+    .section-introduce-inner .introduce-inner::before,
+    .section-introduce-inner .question .item::after {
+        width: 1.5px;
+    }
+
+    .our_services_and_techs-section .services-list .services-item .wapper .title p {
+        font-size: 18px;
+    }
+
+    .benefits-section .benefits-section-inner .section-inner-content h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .section-white-lable-page .why_choose_us-section .why_choose_us-title {
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+    }
+
+    .bottom_panel_banner-section .wapper .bottom_panel_banner-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .bottom_panel_banner-section .wapper .button-more a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .bottom_panel_banner-section .wapper .button-more a {
+        height: 40px;
+    }
+}

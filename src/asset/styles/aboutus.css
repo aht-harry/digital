@@ -1,0 +1,557 @@
+/* ______BannerTop____ */
+.about-us-section .about-us-banner-top .section-banner .top-banner .image {
+    position: relative;
+    height: 550px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.about-us-section .about-us-banner-top {
+    position: relative;
+}
+
+.about-us-section .about-us-banner-top .section-banner .top-banner .image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(0 0 0 / 50%);
+}
+
+.about-us-section .about-us-banner-top .section-banner .top-banner .image picture,
+.about-us-section .about-us-banner-top .section-banner .top-banner .image img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    min-height: 460px;
+}
+
+.about-us-section .about-us-banner-top .section-banner .banner-title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    transform: translateY(-50%);
+    z-index: 1;
+    padding: 0 25px;
+}
+
+.about-us-section .about-us-banner-top .section-banner .banner-title .title,
+.about-us-section .about-us-banner-top .section-banner .banner-title p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us-section .about-us-banner-top .section-banner .banner-title .title {
+
+    max-width: 750px;
+    margin-bottom: 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFCD06;
+}
+
+
+.about-us-section .about-us-banner-top .section-banner .banner-title p {
+    color: #fff;
+    max-width: 625px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: inherit;
+}
+
+.about-us-section .about-us-banner-top .section-banner .banner-title p a:hover {
+    text-decoration: underline;
+}
+
+/* ______BannerTopEND____ */
+
+/* ____facts_figures-list___ */
+.about-us-section .facts_figures-section,
+.section-home-page .facts_figures-section {
+    padding: 5rem 0;
+    display: block;
+}
+
+.facts_figures-section .facts_figures-content .facts_figures-title h2 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 71px;
+    text-transform: capitalize;
+    color: #183B56;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.facts_figures-section .facts_figures-content,
+.section-home-page .facts_figures-content {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 43px;
+}
+
+.facts_figures-section .facts_figures-content .wapper,
+.section-home-page .facts_figures-content .wapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+.facts_figures-section .facts_figures-content .facts_figures-item,
+.section-home-page .facts_figures-content .facts_figures-item {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-top: 61px;
+    padding-bottom: 85px;
+    border-right: 1px solid rgb(224 224 224 / 50%);
+}
+
+.facts_figures-section .facts_figures-content .facts_figures-item:last-child,
+.section-home-page .facts_figures-content .facts_figures-item:last-child {
+    border-color: transparent;
+}
+
+.facts_figures-section .facts_figures-content .facts_figures-item .totalNumber,
+.section-home-page .facts_figures-content .facts_figures-item .totalNumber {
+    height: 53px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    place-items: flex-start;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.facts_figures-section .facts_figures-content .facts_figures-item .totalNumber h3,
+.section-home-page .facts_figures-content .facts_figures-item .totalNumber h3{
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+
+}
+
+.facts_figures-section .facts_figures-content .facts_figures-item .totalNumber h3 span,
+.section-home-page .facts_figures-content .facts_figures-item .totalNumber h3 span {
+    color: #183B56 !important;
+}
+
+.facts_figures-section .facts_figures-content .facts_figures-item .description p,
+.section-home-page .facts_figures-content .facts_figures-item .description p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #183B56;
+}
+
+/* ____facts_figures-listEnd___ */
+/* _____our_vision-section_____ */
+.about-us-section .our_vision-section {
+    padding: 5rem 0;
+}
+
+.about-us-section .our_vision-section .item-inner {
+    align-items: center;
+}
+
+.about-us-section .our_vision-section .item-inner .image-feature {
+    padding: 0px 72px 0px 15px;
+}
+
+.about-us-section .our_vision-section .item-inner .image-feature img {
+    width: 100%;
+}
+
+.about-us-section .our_vision-section .item-inner .content-right {
+    padding: 0px 15px 0px 82px;
+}
+
+.about-us-section .our_vision-section .item-inner .content-right .title {
+    margin-bottom: 45px;
+}
+
+.about-us-section .our_vision-section .item-inner .content-right .title h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #183B56;
+    margin: 0 0 24px 0;
+}
+
+.about-us-section .our_vision-section .item-inner .content-right .description p {
+    color: #183B56;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* _____our_vision-sectionEND_____ */
+
+/* our_technological_expertise-section___ */
+.about-us-section .our_technological_expertise-section {
+    padding: 50px 0;
+}
+
+.about-us-section .our_technological_expertise-section img {
+    width: 100%;
+}
+
+.about-us-section .our_technological_expertise-section .section-banner h2 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 71px;
+    text-transform: capitalize;
+    color: #183B56;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about-us-section .our_technological_expertise-section .expertise-list {}
+
+.about-us-section .our_technological_expertise-section .expertise-list .expertise-item {
+    /* position: relative; */
+    margin-bottom: 48px;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.our_technological_expertise-section .expertise-list .expertise-item .img-wapper {
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+
+.our_technological_expertise-section .expertise-list .expertise-item .img-wapper img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: all .3s;
+}
+
+.our_technological_expertise-section .expertise-list .expertise-item:hover img {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* our_technological_expertise-sectionEND___ */
+
+/* __why-choose-us-section____ */
+.about-us-section .why-choose-us-section {
+    padding: 50px 0;
+}
+
+.why-choose-us-section .why-choose-title h2 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 71px;
+    text-transform: capitalize;
+    color: #183B56;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.why-choose-us-section .why-choose-us-content .list-content {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.why-choose-us-section .why-choose-us-content .content-item:first-child {
+    margin: 0 0 47px;
+    padding: 31px 76.5px 8px 35px;
+    border-right: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.why-choose-us-section .why-choose-us-content .content-item {
+    border-right: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.why-choose-us-section .why-choose-us-content .content-item {
+    padding: 31px 76.5px 8px;
+    margin: 0 0 47px;
+
+}
+
+.why-choose-us-section .why-choose-us-content .content-item .number {
+    margin-top: 26px;
+}
+
+.why-choose-us-section .why-choose-us-content .content-item .number span {
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFCD06;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.why-choose-us-section .why-choose-us-content .content-item .title {
+    margin: 0 0 24px 0;
+}
+
+.why-choose-us-section .why-choose-us-content .content-item .title h2 {
+    color: #183B56;
+    text-transform: initial;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: left;
+}
+
+.why-choose-us-section .why-choose-us-content .content-item .description p {
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #183B56;
+}
+
+.why-choose-us-section .why-choose-us-content .content-item:nth-child(3n),
+.why-choose-us-section .why-choose-us-content .content-item:last-child {
+    border-color: transparent;
+}
+
+/* __why-choose-us-sectionEND____ */
+
+/* __-why-choose-us-banner-bottom___ */
+.about-us-section .why-choose-us-banner-bottom {
+    padding: 7.2rem 0;
+}
+
+.about-us-section .why-choose-us-banner-bottom .background-img {
+    background-image: url(https://onextdigital.com/wp-content/uploads/2022/09/MEM_9830-scaled.jpg);
+    padding: 55px 260px 72px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.about-us-section .why-choose-us-banner-bottom .background-img h2 {
+    text-align: center;
+    margin-bottom: 41px;
+    color: #FFCD06;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 64px;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+
+.about-us-section .why-choose-us-banner-bottom .background-img .button-more {
+    text-align: center;
+
+}
+
+.about-us-section .why-choose-us-banner-bottom .background-img .button-more a {
+    max-width: none;
+    width: auto;
+    background: #FFCD06;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #183B56;
+    text-transform: capitalize;
+    height: 55px;
+    padding: 15px 30px;
+    border: 1px solid;
+    text-decoration: none;
+    transition: all .3s;
+    line-height: 32px;
+
+}
+
+/* __-why-choose-us-banner-bottomEND___ */
+@media screen and (max-width:1300px) {
+    .about-us-section .our_vision-section .item-inner .image-feature {
+        padding: 0px 30px 0px 15px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .why-choose-us-section .why-choose-us-content .content-item,
+    .why-choose-us-section .why-choose-us-content .content-item:first-child {
+        padding: 31px 30px 8px;
+    }
+
+    .about-us-section .our_vision-section .item-inner .content-right {
+        padding: 0px 15px 0px 45px;
+    }
+
+}
+
+@media screen and (max-width:769px) {
+    .about-us-section .facts_figures-section,
+    .section-home-page .facts_figures-section {
+        padding-bottom: 0px;
+    }
+
+    .about-us-section .about-us-banner-top .section-banner .banner-title .title {
+        font-size: 35px;
+    }
+
+    .facts_figures-section .facts_figures-content .facts_figures-item,
+    .section-home-page .facts_figures-content .facts_figures-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .about-us-section .our_vision-section .item-inner .image-feature {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .about-us-section .our_vision-section .item-inner .content-right {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .about-us-section .our_vision-section {
+        padding: 40px 0px;
+    }
+
+    .about-us-section .our_technological_expertise-section .expertise-list .expertise-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .about-us-section .our_technological_expertise-section {
+        padding-bottom: 30px;
+    }
+
+    .why-choose-us-section .why-choose-us-content .content-item,
+    .why-choose-us-section .why-choose-us-content .content-item:first-child {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .about-us-section .why-choose-us-banner-bottom {
+        padding: 50px 0px;
+    }
+
+    .about-us-section .why-choose-us-banner-bottom .background-img {
+        padding: 55px 100px 72px;
+    }
+
+    .why-choose-us-section .why-choose-us-content .content-item:nth-child(3) {
+        border-right: 1px solid #E0E0E0;
+    }
+
+
+}
+
+@media screen and (max-width:540px) {
+
+    .about-us-section .about-us-banner-top .section-banner .banner-title .title,
+    .about-us-section .why-choose-us-banner-bottom .background-img h2 {
+        font-size: 25px;
+    }
+
+    .facts_figures-section .facts_figures-content .facts_figures-item .totalNumber h3,
+    .facts_figures-section .facts_figures-content .facts_figures-item .totalNumber h3 span,
+    .section-home-page .facts_figures-content .facts_figures-item .totalNumber h3,
+    .section-home-page .facts_figures-content .facts_figures-item .totalNumber h3 span,
+    .about-us-section .our_technological_expertise-section .section-banner h2,
+    .about-us-section .our_vision-section .item-inner .content-right .title h2,
+    .facts_figures-section .facts_figures-content .facts_figures-title h2 {
+        font-size: 35px !important;
+    }
+
+    .about-us-section .about-us-banner-top .section-banner .banner-title p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .about-us-section .facts_figures-section {
+        padding-top: 0px;
+    }
+
+    .facts_figures-section .facts_figures-content .facts_figures-title h2 {
+        margin-bottom: 30px;
+    }
+
+    .facts_figures-section .facts_figures-content .facts_figures-item,
+    .section-home-page .facts_figures-content .facts_figures-item {
+        border-right: none;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .facts_figures-section .facts_figures-content .facts_figures-item .totalNumber,
+    .section-home-page .facts_figures-content .facts_figures-item .totalNumber{
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .facts_figures-section .facts_figures-content .facts_figures-item:nth-child(2) {
+        padding: 0;
+    }
+
+    .about-us-section .our_technological_expertise-section .expertise-list .expertise-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .why-choose-us-section .why-choose-title h2 {
+        font-size: 24px;
+    }
+
+    .why-choose-us-section .why-choose-us-content .content-item,
+    .why-choose-us-section .why-choose-us-content .content-item:first-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about-us-section .why-choose-us-banner-bottom .background-img {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .why-choose-us-section .why-choose-us-content .content-item,
+    .why-choose-us-section .why-choose-us-content .content-item:first-child {
+        border-right: none;
+    }
+
+    .about-us-section .why-choose-us-banner-bottom .background-img .button-more a {
+        padding: 10px 15px;
+    }
+
+    .about-us-section .about-us-banner-top .section-banner .banner-title .container {
+        padding: 0;
+    }
+}
